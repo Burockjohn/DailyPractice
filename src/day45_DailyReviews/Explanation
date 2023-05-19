@@ -1,0 +1,48 @@
+Create a class named Employee.
+
+Private instance variables: firstName, lastName, age, salary.
+
+Constructor: Sets firstName, lastName, age, and salary fields.
+
+Methods: Getters and setters, work.
+
+Create a subclass of Employee named Developer.
+
+Private instance variable: programmingLanguage.
+
+Constructor: Inherits from Employee and sets firstName, lastName, age, salary, and programmingLanguage fields.
+
+Methods: Inherits getFirstName, getLastName, getAge, getSalary, setFirstName, setLastName, setAge, setSalary, and work methods from Employee. Additionally, it should have a coding method.
+
+Create a subclass of Employee named Tester.
+
+Private instance variable: testingTool.
+
+Constructor: Inherits from Employee and sets firstName, lastName, age, salary, and testingTool fields.
+
+    Methods: Inherits getFirstName, getLastName, getAge, getSalary, setFirstName, setLastName, setAge, setSalary, and work methods from Employee. Additionally, it should have a testing method.
+
+Create a class named WorkTeam.
+
+Private instance variable: employees (list of Employee objects).
+
+Constructor: Sets the employees list as an empty list.
+
+Methods: addEmployee (to add an employee), removeEmployee (to remove an employee), printEmployees (to print the employees).
+
+Create a class named Test with a main method.
+Create a WorkTeam object and add a few Tester and Developer objects
+
+Increase all salaries with 15000 and print all employees.
+
+Print all employees whose salary is less than 120000
+
+Print testers
+
+Print developers
+
+Print all employees Who is older than 35
+
+Call test method for all Tester objects
+
+Call coding method for all Developer objects
