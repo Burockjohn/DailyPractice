@@ -1,0 +1,46 @@
+Create a class called Vehicle.
+
+Private instance variables: make, model, year, price.
+
+Constructor: Sets the make, model, year, and price fields.
+
+Methods: Getters and setters, startEngine.
+
+
+Create a subclass of Vehicle called Car.
+
+Private instance variable: numDoors.
+
+Constructor: Inherits from Vehicle and sets the make, model, year, price, and numDoors fields.
+
+Methods: Inherits getMake, getModel, getYear, getPrice, setMake, setModel, setYear, setPrice, and startEngine methods from Vehicle. Additionally, it should have a drive method.
+
+
+Create a subclass of Vehicle called Motorcycle.
+
+Private instance variable: engineSize.
+
+Constructor: Inherits from Vehicle and sets the make, model, year, price, and engineSize fields.
+
+Methods: Inherits getMake, getModel, getYear, getPrice, setMake, setModel, setYear, setPrice, and startEngine methods from Vehicle. Additionally, it should have a wheelie method.
+
+
+Create a class called Dealership.
+
+Private instance variable: vehicles (list of Vehicle objects).
+
+Constructor: Sets the vehicles list as an empty list.
+
+Methods: addVehicle (to add a vehicle), removeVehicle (to remove a vehicle), printVehicles (to print the vehicles).
+
+Create a class named Test with a main method.
+Create a Dealership object and add a few Car and Motorcycle objects.
+
+Increase the price of all vehicles by 10% and print all vehicles.
+
+
+Print all vehicles made in the year 2022.
+
+Call drive method for all Car objects.
+
+Call wheelie method for all Motorcycle objects.
