@@ -39,6 +39,7 @@ public class Test {
                     System.out.println("Please enter balance");
                     balance = input.nextDouble();
                     bank.crate_S_ID_balance(balance, ID);
+                    input.nextLine();
                     break;
                 case "2":
                     System.out.println("Please enter ID");
@@ -46,6 +47,7 @@ public class Test {
                     System.out.println("Please enter balance");
                     balance = input.nextDouble();
                     bank.crate_L_ID_balance(balance, ID);
+                    input.nextLine();
                     break;
                 case "3":
                     System.out.println("Please enter ID");
@@ -53,6 +55,7 @@ public class Test {
                     System.out.println("Please enter balance");
                     balance = input.nextDouble();
                     bank.crate_O_ID_balance(balance, ID);
+                    input.nextLine();
                     break;
                 case "4":
                     System.out.println("Please enter ID");
@@ -60,6 +63,7 @@ public class Test {
                     System.out.println("Please enter balance");
                     balance = input.nextDouble();
                     bank.crate_C_ID_balance(balance, ID);
+                    input.nextLine();
                     break;
                 case "5":
                     System.out.println("Please enter ID");
@@ -67,6 +71,7 @@ public class Test {
                     System.out.println("Please enter balance");
                     balance = input.nextDouble();
                     bank.deposit(ID, balance);
+                    input.nextLine();
                     break;
                 case "6":
                     System.out.println("Please enter ID");
@@ -74,6 +79,7 @@ public class Test {
                     System.out.println("Please enter balance");
                     balance = input.nextDouble();
                     bank.withdraw(ID, balance);
+                    input.nextLine();
                     break;
                 case "7":
                     System.out.println("Please enter day");
@@ -83,6 +89,7 @@ public class Test {
                     System.out.println("Please enter year");
                     int year = input.nextInt();
                     bank.set_dd_mm_yy(day, month, year);
+                    input.nextLine();
                     break;
                 case "8":
                     bank.showAccount();
